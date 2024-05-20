@@ -19,11 +19,11 @@ def initial_settings(temp_folder: str="static", output_filename: str = "report")
 if __name__ == "__main__":
     settings = initial_settings()
 
-    host = "https://navy-blue-eagle.trial.cloud.gooddata.com/"
-    token = "amFrdWIudmFqZGE6TmV3Ok5Qa2d6ZTVPZElHbTVMQU1kZk1TU1R1dFpZWU4rMmNm"
-    workspace_id = "gdc_demo_8233544a-ce3b-48e4-a005-cd3dabd6667f"
-    table_id = '469e8936-ca67-4987-8c70-0e35be24be4d'
-    vis_id = '2da13424-2a6b-4ed4-916c-9bbc002fdd1b'
+    host = "your_gooddata_endpoint"
+    token = "api_access_token"
+    workspace_id = "workspace_id"
+    table_id = 'first_visual_id_table_preferably'
+    vis_id = 'second_visual_id'
 
     # list dataframes available within a specific workspace
     gp = GoodPandas(host, token)
